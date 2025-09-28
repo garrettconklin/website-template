@@ -119,4 +119,5 @@ Created `.github/workflows/deploy.yml` for automatic deployment to GitHub Pages.
 **GitHub Actions:**
 - Builds on push to main branch
 - Deploys to GitHub Pages automatically
-- Uses `peaceiris/actions-gh-pages` action
+- Uses official GitHub Pages actions
+- Proper permissions and concurrency control
