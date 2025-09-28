@@ -1,39 +1,40 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Cloning Instructions
+## Using This Template
 
-To use this template for a new project:
+### Step 1: Create Repository from Template
+1. Go to this repository on GitHub
+2. Click the green **"Use this template"** button
+3. Select **"Create a new repository"**
+4. Name your new repository
+5. Make it public or private (your choice)
+6. Click **"Create repository"**
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/website-template.git your-new-project
-   cd your-new-project
-   ```
+### Step 2: Clone Your New Repository
+```bash
+# Clone your new repository to your computer
+git clone https://github.com/yourusername/your-new-project.git
+cd your-new-project
+```
 
-2. **Update package.json:**
-   - Change `"name"` to your project name
-   - Update version if needed
+### Step 3: Update Project Configuration
+- Open `package.json` in your code editor
+- Change `"name"` from `"website-template"` to your project name
+- Save the file
 
-3. **Initialize new git repository:**
-   ```bash
-   rm -rf .git
-   git init
-   git add .
-   git commit -m "Initial commit from template"
-   ```
+### Step 4: Configure GitHub Pages
+1. Go to your repository on GitHub
+2. Click **Settings** tab
+3. Scroll down to **Pages** section
+4. Under **Source**, select **GitHub Actions**
+5. The workflow will automatically deploy your site
+6. Your site will be available at: `https://yourusername.github.io/your-new-project`
 
-4. **Create new GitHub repository:**
-   - Create new repo on GitHub
-   - Add remote origin:
-   ```bash
-   git remote add origin https://github.com/yourusername/your-new-project.git
-   git push -u origin main
-   ```
-
-5. **Enable GitHub Pages:**
-   - Go to Settings → Pages
-   - Set source to "GitHub Actions"
-   - Your site will be available at `https://yourusername.github.io/your-new-project`
+### Step 5: Verify Deployment
+- Make a small change to your code
+- Commit and push: `git add -A && git commit -am "Test deployment" && git push`
+- Check the **Actions** tab to see the deployment progress
+- Visit your GitHub Pages URL to see the live site
 
 ## Git Commands
 
