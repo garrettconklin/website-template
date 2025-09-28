@@ -115,6 +115,8 @@ Created `.github/workflows/deploy.yml` for automatic deployment to GitHub Pages.
 - Static export enabled (`output: 'export'`)
 - Trailing slash enabled
 - Images unoptimized for static hosting
+- Dynamic basePath for GitHub Pages subdirectories
+- Asset prefix configured for production builds
 
 **GitHub Actions:**
 - Builds on push to main branch
