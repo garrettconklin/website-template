@@ -30,9 +30,7 @@ jobs:
         run: npm ci
         
       - name: Build
-        run: NODE_ENV=production npm run build
-        env:
-          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run build
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
