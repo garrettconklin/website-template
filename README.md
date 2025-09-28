@@ -115,7 +115,7 @@ Created `.github/workflows/deploy.yml` for automatic deployment to GitHub Pages.
 - Static export enabled (`output: 'export'`)
 - Trailing slash enabled
 - Images unoptimized for static hosting
-- Relative paths for assets (works in any subdirectory)
+- Asset imports use relative paths (Turbopack compatibility)
 
 **GitHub Actions:**
 - Builds on push to main branch

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import nextLogo from "/public/next.svg";
-import vercelLogo from "/public/vercel.svg";
-import fileIcon from "/public/file.svg";
-import windowIcon from "/public/window.svg";
-import globeIcon from "/public/globe.svg";
+import nextLogo from "../../public/next.svg";
+import vercelLogo from "../../public/vercel.svg";
+import fileIcon from "../../public/file.svg";
+import windowIcon from "../../public/window.svg";
+import globeIcon from "../../public/globe.svg";
 
 export default function Home() {
   return (
